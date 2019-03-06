@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Kiritchouk Clément</Authors>
+    <Company />
+    <Description>GraphQL CacheProvider help storing graphQL queries in cache.</Description>
+    <PackageProjectUrl>https://github.com/KiritchoukC/GraphQL.CacheProvider</PackageProjectUrl>
+    <PackageIconUrl>https://avatars3.githubusercontent.com/u/29778468?s=460&amp;v=4</PackageIconUrl>
+    <RepositoryUrl>https://github.com/KiritchoukC/GraphQL.CacheProvider</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>GraphQL, Cache, Caching</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GraphQL" Version="2.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" Version="2.2.1" />
+  </ItemGroup>
+
+</Project>
