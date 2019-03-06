@@ -13,7 +13,7 @@
 
         private readonly TestFixture fixture;
         private int databaseRetrieves = 0;
-        private IMemoryCacheProvider<TestEntity> memoryCacheProvider;
+        private IGraphQLCacheProvider<TestEntity> memoryCacheProvider;
 
         #endregion Private Fields
 

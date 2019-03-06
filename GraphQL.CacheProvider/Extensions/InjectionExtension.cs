@@ -9,7 +9,7 @@ namespace GraphQL.CacheProvider.Extensions
     {
         public static void AddGraphQLCache(this IServiceCollection services)
         {
-            services.AddSingleton(typeof(IMemoryCacheProvider<>), typeof(MemoryCacheProvider<>));
+            services.AddSingleton(typeof(IGraphQLCacheProvider<>), typeof(GraphQLCacheProvider<>));
         }
     }
 }

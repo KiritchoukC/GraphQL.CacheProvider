@@ -17,11 +17,11 @@ namespace GraphQL.CacheProvider.Tests
         public IServiceProvider ServiceProvider { get; set; }
         private bool IsDisposing { get; set; } = false;
 
-        public IMemoryCacheProvider<TestEntity> MemoryCacheProvider { get; set; }
+        public IGraphQLCacheProvider<TestEntity> MemoryCacheProvider { get; set; }
 
         public TestFixture()
         {
-            MemoryCacheProvider = new MemoryCacheProvider<TestEntity>();
+            MemoryCacheProvider = new GraphQLCacheProvider<TestEntity>();
             var serviceCollection = new ServiceCollection();
 
             ServiceProvider = serviceCollection.BuildServiceProvider();

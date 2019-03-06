@@ -6,7 +6,7 @@
     using Microsoft.Extensions.Caching.Memory;
     using System.Collections.Generic;
 
-    public interface IMemoryCacheProvider<T> : IMemoryCache
+    public interface IGraphQLCacheProvider<T> : IMemoryCache
     {
         #region Public Methods
 

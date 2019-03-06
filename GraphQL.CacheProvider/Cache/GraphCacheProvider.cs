@@ -10,7 +10,7 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    public class MemoryCacheProvider<T> : MemoryCache, IMemoryCacheProvider<T>
+    public class GraphQLCacheProvider<T> : MemoryCache, IGraphQLCacheProvider<T>
     {
         #region Private Fields
 
@@ -25,7 +25,7 @@
 
         #region Public Constructors
 
-        public MemoryCacheProvider() : base(options)
+        public GraphQLCacheProvider() : base(options)
         {
             cacheEntryOptions = new MemoryCacheEntryOptions()
             {
