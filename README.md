@@ -8,9 +8,11 @@ GraphQL CacheProvider help storing graphQL queries in cache.
 or
 
     dotnet add package GraphQL.CacheProvider
+
 or
 
-**[Direct download on nuget.org]([https://www.google.com](https://www.nuget.org/packages/GraphQL.CacheProvider/))**
+**[Direct download on nuget.org](https://www.nuget.org/packages/GraphQL.CacheProvider/)**
+
 
 ---
 
